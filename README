@@ -1,1 +1,2 @@
 
+In order to use the microservce you need to run it (it will be waiting for text in a file called pipe.txt), then you just have to write a query type on the first line of the pipe.txt file, and then put the query on the second line.  the microservice will read the query type and query, and then respond by writing the article information back into the same text file.  From there the individual project will just have to grab that text out of pipe.txt and use it.
